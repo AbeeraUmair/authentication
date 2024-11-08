@@ -61,7 +61,7 @@ export function GenerateBackupCodes() {
         console.error(JSON.stringify(err, null, 2))
         setLoading(false)
       })
-  }, [])
+  }, [backupCodes, user])
 
   if (loading) {
     return <p>Loading...</p>

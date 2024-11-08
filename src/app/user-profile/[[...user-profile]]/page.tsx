@@ -31,5 +31,4 @@ const UserProfilePage = () => (
   </UserProfile>
 )
 
-
 export default UserProfilePage
